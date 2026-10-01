@@ -60,7 +60,7 @@ Chroma Vector Database
         ▼
 User Question
         │
-        ├── Batch / Year Scope
+        ├── Batch Scope
         ├── Vector Search
         └── Keyword Force Retrieval
         │
@@ -103,7 +103,9 @@ Answer + Sources
 │   └── landing.html
 └── static/
     ├── main.js
-    └── style.css
+    ├── style.css
+    └── resources/
+        └── README.md
 ```
 
 ## 실행 방법
@@ -154,4 +156,9 @@ uvicorn app:app --reload
 
 - 수행 형태: 캡스톤디자인 팀 프로젝트
 - 역할: 팀 멤버
-- 주요 기여: RAG 검색 구조 설계, 기수별 검색 범위 제어, Hybrid Retrieval 및 웹 기반 질의응답 시스템 구현
+
+## 공개 저장소 참고사항
+
+- 원본 프로젝트의 Python, HTML, CSS, JavaScript 소스 코드는 팀 프로젝트 저장본을 기준으로 유지하였습니다.
+- 국민건강영양조사 이용지침서 PDF는 공개 저장소에 포함하지 않았습니다.
+- 원본 UI에서 사용한 PNG 이미지 3개는 코드와 별도의 정적 디자인 자산이므로 이 포트폴리오 저장소에는 포함하지 않았습니다. 백엔드 RAG 로직과 프론트엔드 동작 코드는 확인할 수 있습니다.
