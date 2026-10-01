@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국민건강영양조사 RAG 챗봇</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>국민건강영양조사 RAG 챗봇</h2>
+            <div class="source-selector">
+                <div class="dropdown">
+                    <button id="dropdown-btn" class="dropdown-btn">검색 대상 기수 선택 (전체)</button>
+                    <div id="filter-container" class="dropdown-content">
+                        <!-- 체크박스가 자바스크립트로 동적 생성됩니다 -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="chat-window" class="chat-window">
+            <!-- 채팅 메시지가 여기에 추가됩니다. -->
+        </main>
+        <footer>
+            <div class="input-container">
+                <input type="text" id="message-input" placeholder="질문을 입력하세요..." autocomplete="off">
+                <button id="send-button">전송</button>
+            </div>
+        </footer>
+    </div>
+    <script src="/static/main.js"></script>
+</body>
+
+</html>
