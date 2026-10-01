@@ -1,0 +1,13 @@
+# Environment variables
+.env
+
+# Vector Database
+chroma_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Source PDFs are intentionally excluded from the public portfolio repository
+data/*.pdf
+!data/README.md
